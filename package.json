@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/css/input.scss -o ./dist/css/output.scss --watch --style=compressed",
+    "sassWatch": "sass --watch ./dist/css/output.scss ./dist/css/output.css --style compressed"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3"

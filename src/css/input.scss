@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form {
+  input {
+    &.is-focus {
+      + label {
+        top: 4px;
+        font-size: 12px;
+      }
+    }
+  }
+}
